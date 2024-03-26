@@ -31,7 +31,7 @@ class _BottomNavBarState extends State<BottomNavBarScreen> {
       bottomNavigationBar: BottomNavigationBar(
         elevation: 0.0,
         // backgroundColor: Theme.of(context).colorScheme.background,
-        backgroundColor: Colors.grey.shade200,
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         type: BottomNavigationBarType.fixed,
         showUnselectedLabels: true,
         iconSize: 24,

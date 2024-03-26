@@ -16,8 +16,10 @@ class TTextTheme {
       color: Color(0xff828282),
     ),
     bodyLarge: const TextStyle().copyWith(
-        fontSize: 13.0, fontWeight: FontWeight.w400, color: Colors.black),
+        fontSize: 13.0, fontWeight: FontWeight.w600, color: Colors.black),
     bodyMedium: const TextStyle().copyWith(
+        fontSize: 13.0, fontWeight: FontWeight.w400, color: Colors.black),
+    bodySmall: const TextStyle().copyWith(
         fontSize: 13.0, fontWeight: FontWeight.w400, color: Color(0xff828282)),
     labelLarge: const TextStyle().copyWith(
         fontSize: 10.0, fontWeight: FontWeight.normal, color: Colors.black),
@@ -42,8 +44,10 @@ class TTextTheme {
       color: Color(0xff828282),
     ),
     bodyLarge: const TextStyle().copyWith(
-        fontSize: 13.0, fontWeight: FontWeight.w400, color: Colors.white),
+        fontSize: 13.0, fontWeight: FontWeight.w600, color: Colors.white),
     bodyMedium: const TextStyle().copyWith(
+        fontSize: 13.0, fontWeight: FontWeight.w400, color: Colors.white),
+    bodySmall: const TextStyle().copyWith(
         fontSize: 13.0, fontWeight: FontWeight.w400, color: Color(0xff828282)),
     labelLarge: const TextStyle().copyWith(
         fontSize: 10.0, fontWeight: FontWeight.normal, color: Colors.white),

@@ -6,7 +6,7 @@ ThemeData lightTheme = ThemeData(
   fontFamily: 'Poppins',
   brightness: Brightness.light,
   primaryColor: Colors.blue,
-  scaffoldBackgroundColor: Colors.white,
+  scaffoldBackgroundColor: Colors.grey.shade200,
   textTheme: TTextTheme.lightTextTheme,
   colorScheme: ColorScheme.light(
     background: Colors.white,
@@ -24,7 +24,7 @@ ThemeData darkTheme = ThemeData(
   scaffoldBackgroundColor: Colors.black,
   textTheme: TTextTheme.darkTextTheme,
   colorScheme: ColorScheme.dark(
-    background: Colors.black,
+    background: Colors.grey.shade900,
     primaryContainer: Colors.white,
     primary: Colors.grey.shade900,
     secondary: Colors.grey.shade600,
